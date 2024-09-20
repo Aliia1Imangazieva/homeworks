@@ -1,0 +1,15 @@
+h2{
+    background-color: rgb(73, 186, 186);
+    width: 100px;
+
+}
+body{
+    background-color: rgb(132, 151, 151);
+}
+tr{
+    color: rgb(49, 46, 42);
+}
+td{
+    background-color:rgb(224, 214, 214);
+    list-style: decimal;
+}
