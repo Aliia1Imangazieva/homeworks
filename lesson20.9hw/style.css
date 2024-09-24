@@ -8,17 +8,20 @@ body {
 #avatar {
     width: 150px;
     height: 250px;
+    justify-content:center;
+
+}
+.container h2 {
+    color: azure;
 }
 
-.center{
-    text-align: center;
+.container p {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: rgb(69, 69, 116);
-    caret-color: rgb(47, 77, 77);
-    font-style: unset;
+    color: rgb(203, 203, 216);
 }
 .container{
     width: 400px;
     height: 400px;
-background-color: rgb(217, 217, 243);
+background-color: rgb(13, 13, 14);
+text-align: center;
 }
