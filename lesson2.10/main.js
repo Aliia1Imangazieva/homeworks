@@ -25,7 +25,13 @@ console.log(books);
 
 const newbook = [];
 
-const newbooks = prompt("Какую книгу добавить в список?");
+const bookname = prompt("Какую книгу добавить в список?");
+let newbooks = {
+    title:bookname,
+    author:null,
+    year:null,
+    pages:null,
+};
 
 if (newbooks) {
     books.push(newbooks);
