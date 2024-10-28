@@ -1,0 +1,168 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.brand-name {
+    display: flex;
+padding-left: 13%;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.social {
+    margin: 28px;
+}
+
+.container {
+    background-color: #4FBFA5;
+}
+
+.nav-links {
+    color: white;
+    width: 172,1px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+
+.text-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 21px;
+    color: white;
+
+}
+
+.description {
+    padding: 0 200px;
+    margin: 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+}
+
+.greenlamps {
+    padding: 0 200px 0 0;
+    margin: 50px;
+}
+
+.more {
+    background-color: #00868A;
+    color: white;
+    bottom: 14px;
+    gap: 10px;
+    width: 158px;
+    height: 50px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 700px;
+    left: -3px;
+    justify-content: center;
+
+}
+
+.lapms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1296px;
+    border: 1px;
+padding-left: 25%;
+
+}
+
+.products h2 {
+    width: 705px;
+    height: 72px;
+    font-size: 48px;
+    text-align: center;
+    text-style: italic;
+    font-weight: 400;
+    color: #00868A;
+    font-family: ABeeZee;
+    padding-left: 40%;
+
+}
+
+.forhome {
+    width: 306px;
+    height: 343px;
+    background-color: #00868A;
+}
+
+.professional {
+    width: 306px;
+    height: 343px;
+    background-color: #00868A;
+}
+
+.decoration {
+    width: 306px;
+    height: 343px;
+    background-color: #00868A;
+}
+
+.industrial {
+    width: 306px;
+    height: 343px;
+    background-color: #00868A;
+}
+
+.products h1 {
+    width: 181px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+    font-style: italic;
+}
+
+.lapms span {
+    display: flex;
+    flex-direction: row;
+}
+.social-links-footer {
+    display: flex;
+    align-items:end;
+    justify-content:flex-end;
+    padding-right: 10%;
+}
+.arrow {
+    width: 50px;
+    height: 40px;
+    border: 1px;
+    padding-top: 7%;
+}
