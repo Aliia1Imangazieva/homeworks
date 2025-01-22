@@ -1,22 +1,13 @@
-import React from 'react';
-import './App.css';
-import Nav from './Nav';
-import Content from './Content'; 
-import Footer from './Footer';
+import React from "react";
+import WhereAmI from "./components/WhereAmI";
+import RegistrationForm from "./components/Login";
 
 function App() {
-  return (
-    <div className="App">
-      <Nav 
-        logo="https://via.placeholder.com/50" 
-        siteName="Мой сайт" 
-      />
-      <Content 
-        title="Заголовок" 
-        content="Это пример длинного текста, который отображается в компоненте Content." 
-      />
-    </div>
-  );
+    return (
+        <div>
+            <WhereAmI/>
+            <RegistrationForm/>
+        </div>
+    );
 }
-
 export default App;
