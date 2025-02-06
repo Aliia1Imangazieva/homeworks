@@ -1,0 +1,92 @@
+.cart {
+width: 300px;
+height: 487px;
+padding: 16px; 
+background: rgba(255, 255, 255, 1);
+border-radius: 18px;
+}
+.divider {
+  border: none;
+  border-top: 1px solid #ccc; 
+  margin: 16px; 
+}
+.total-quantity-btn {
+    width: 41px;
+    height: 20px; 
+    background-color:rgba(242, 242, 243, 1);
+    color: black;
+    border-radius: 6px; 
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; 
+    cursor: pointer; 
+  margin-right: 16px;
+  }
+  
+  .total-quantity-btn:hover {
+    background-color: #bbb; 
+  }
+h2 {
+font-family: 'Nunito', sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+color: rgba(0, 0, 0, 1);
+}  
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+hr {
+  border-top: 1px solid #ccc;
+}
+h3 {
+  width: 268px;
+height: 21px;
+font-family: 'Nunito', sans-serif;
+}
+.cart-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-top: 16px; 
+padding-left: 16px;
+}
+
+.cart-total .total-value {
+  margin-left: 136px; /* Отступ между "Итого:" и значением */
+  color: #333;
+}
+.start-quantity-btn {
+width: 268px;
+height: 40px;
+padding: 11px 32px 11px 32px;
+border-radius: 12px;
+background: rgba(255, 112, 32, 1);
+color: white;
+border: none;
+margin-left: 16px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 16px;
+}
+.footer-text{
+width: 130px;
+height: 16px;
+font-family: 'Nunito', sans-serif;
+font-size: 12px;
+font-weight: 400;
+}
+
+
+
+
+
+

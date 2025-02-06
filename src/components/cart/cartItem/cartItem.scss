@@ -1,0 +1,85 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  width: 268px;
+height: 84px;
+border: 1px;
+padding-left: 16px;
+padding-right: 16px;
+justify-content: space-between;
+}
+.item__image img {
+  width: 64px; 
+  height: 52px; 
+  border-radius: 8px; 
+  padding-right: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.item__info {
+  padding-top: 16px;
+    display: flex;
+    flex-direction: column;  // Элементы будут располагаться по вертикали
+}
+  
+.item__info strong {
+font-family: 'Nunito', sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+}
+  
+.item__info div {
+    font-size: 12px;  // Размер шрифта для других данных
+    color: #333;  
+}
+.item__info .weight {  
+font-family: 'Nunito', sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+color: rgba(177, 177, 177, 1);
+}
+.item__controls {
+display: flex;
+align-items: center;
+}
+.quantity-btn {
+background-color: rgba(242, 242, 243, 1); // Серый фон
+color: black; 
+font-size: 16px; // Размер текста
+width: 84px; // Ширина кнопки
+height: 40px; // Высота кнопки
+border-radius: 12px; 
+border: none; // Без обводки
+cursor: pointer; // Указатель при наведении
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+opacity: 1; // Сделаем кнопку видимой (убираем opacity: 0)
+padding: 0 10px;
+}
+.quantity-btn:hover {
+    background-color: #bbb; // Немного темнее при наведении
+}
+.quantity-btn:first-child {
+    left: 35px; // Позиционирование кнопки
+}
+.quantity-btn .minus,
+.quantity-btn .plus {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+.quantity-btn .quantity {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 1); 
+}

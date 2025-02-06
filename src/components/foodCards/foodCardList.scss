@@ -1,0 +1,17 @@
+.container {
+    h1 {
+        font-family: "Nunito", serif;
+        font-size: 40px;
+    }
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    margin: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
